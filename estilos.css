@@ -1,0 +1,20 @@
+body{
+    background-color: beige;
+}
+div .container{
+    background-color: rgba(102, 98, 98, 0.479);
+}
+.ratio{
+    @include media-breakpoint-up(md) {
+      --bs-aspect-ratio: 50%; // 2x1
+    }
+  }
+
+  .hola{
+    background-color: beige;
+    border-radius: 20px;
+    
+  }
+  .accordion-button{
+    background-color: rgb(151, 151, 151);
+  }
